@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>channel-slack</title>
+    <link rel="stylesheet" href="developerchat.css">
+    
+</head>
+<body>
+    <nav>
+        <div class="navbar-center">
+            <div class="search-box">
+                <i class="fa-solid fa-clock-rotate-left" id="small-image"></i>
+                    <input type="text" class="search-bar" placeholder="Search developer">
+                <i class="fa fa-search"></i>
+            </div>
+        </div>
+        <div class="navbar-right">
+            <i class="fa-regular fa-circle-question" id="small-image-1"></i>
+            <img src="images/Naeem12.jpg" alt="Right Image" class="small-image" id="active-image">
+        </div>
+    </nav>
+      
+    <div class="container">
+        <div class="left-side">
+            <!-- Content for the left side -->
+                <div class="left-sidebar">
+                    <a href="#" class="tag">developer<i class="fa-solid fa-chevron-down" id="arrow-down"></i></a>
+                    <i class="fa-solid fa-comment-dots" id="comment-dot"></i>
+                </div>
+            <div class="links">
+                  <div class="link">
+                    <i class="fa-regular fa-comment"></i>
+                    <a href="#">Threads</a>
+                  </div>
+                  <div class="link">
+                    <i class="fa-solid fa-magnifying-glass-location"></i>
+                    <a href="#">Mentions & Reactions</a>
+                  </div>
+                  <div class="link">
+                    <i class="fa-regular fa-paper-plane"></i>
+                    <a href="#">Drafts & sent</a>
+                  </div>
+                  <div class="link">
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                    <a href="#">More</a>
+                  </div>
+          </div>
+
+            <div class="link-2-container">
+              <div class="link-2">
+                  <a href="#"><i class="fa-regular fa-circle-down"></i> Channels</a>
+                  
+                     <a href="#" id="generalTag"># general</a>
+                 
+                    <a href="#" id="randomTag"># random</a>
+                           
+          
+                  <a href="#"><i class="fa-solid fa-plus"></i> Add channels</a>
+                  <a href="#"><i class="fa-solid fa-circle-arrow-down"></i> Direct messages
+                  <i class="fa-solid fa-plus" id="plus-icon-2"></i></a>
+                  <a href="#"><img src="images/Naeem12.jpg" alt=""> naeem.mizan143 </a>
+                  <a href="#"><i class="fa-solid fa-plus" id="plus-icon"></i> Add Coworkers </a>
+              </div>
+            </div>
+
+            <div class="container-bottom">
+              <a href="#" id="leftBottomTag">general <i class="fa-solid fa-chevron-down" id="arrow-down"></i></a>
+              <i class="fa-solid fa-headphones" id="headphone"></i>
+            </div>
+
+      </div>
+
+    <div class="right-side">
+          <!-- Content for the right side -->
+              <div class="right-side-first">
+                  <a href="#" id="rightTopTag" ># general<i class="fa-solid fa-chevron-down" id="arrow-down"></i></a>
+                <img src="images/Naeem12.jpg" class="right-img" alt="Image">
+              </div>
+           
+              <div class="bookmark">
+                <div class="content">
+                  <i class="fa-solid fa-plus" id="plus-icon"></i> 
+                  <a href="#">Add Bookmark</a>
+                </div>
+              </div>
+          
+            <div class="general-channel">
+                  <div class="sub-general-channel">
+                    <h1 id="heading"><i class="fa-solid fa-gift" id="giftIcon"></i> You’re looking at the # general channel</h1>
+                    <p id="paragraph">This is the one channel that will always include everyone. It’s a great spot for announcements and team-wide conversations.<a href="#">Edit Description</a></p>
+                    <button class="btn-people"> <i class="fa-solid fa-user"></i>Add People</button>
+                  </div>
+            
+                  <div class="time">
+                    <!-- <hr> -->
+                      <div class="outline">
+                        <a href="#">Sunday,June25th<i class="fa-solid fa-chevron-down" id="arrow-down"></i></a>
+                      </div> 
+                  </div>
+                
+           </div>
+            
+        <div class="document">
+            <div class="c-message-kit">
+                <div class="c-message-kit-guiter">
+                    <div class="c-message-kit-guiter-left">
+                        <img src="images/Naeem12.jpg"  class="right-img" alt="">
+                    </div>
+                    <div class="c-message-kit-guiter-right">
+                          <span class="c-message-sender">naeem.mizan143</span>
+                          <span onload="setDynamicTimezone()"  id="timezone">7:56 PM</span> <br>
+                          <span class="c-message-body" id="joinedTag">joined # general.</span>
+                    </div>
+                  </div>
+              </div>
+        </div>
+
+        <div class="message-pane-container">
+          <div class="p-message-input-container">
+            <div class="p-message-input">
+              <i class="fa-solid fa-bold"></i>
+              <i class="fa-solid fa-italic"></i>
+              <i class="fa-solid fa-strikethrough" style="border-right: 0.1rem solid #c3c0c03e; line-height: 0.1rem;"></i>
+              <i class="fa-solid fa-link"></i>
+              <i class="fa-solid fa-list-ol" style="border-left: 0.1rem solid #c3c0c03e; line-height: 0.1rem;"></i>
+              <i class="fa-solid fa-list" style="border-right: 0.1rem solid #c3c0c03e; line-height: 0.1rem;"></i>
+              <i class="fa-solid fa-list-check" style="border-right: 0.1rem solid #c3c0c03e; line-height: 0.1rem;"></i>
+              <i class="fa-solid fa-code"></i>             
+              <i class="fa-brands fa-codepen"></i>
+              <div id="textTag">
+                <input type="text" name="message" placeholder="Message #general">
+              </div>
+              
+                
+                  <div class="same-case">
+                    <i class="fa-solid fa-plus"></i>
+                    <i class="fa-solid fa-eye-slash"></i>
+                    <i class="fa-solid fa-face-grin-wide" id="face-emoji"></i>
+                    <i class="fa-solid fa-at"></i>
+                    <i class="fa-solid fa-video" style="border-left: 0.1rem solid #c3c0c03e; line-height: 0.1rem;"></i>
+                    <i class="fa-solid fa-microphone" style="border-right: 0.1rem solid #c3c0c03e; line-height: 0.1rem;"></i>
+                    <i class="fa-regular fa-square-check"></i>               
+                
+                  
+                </div>
+
+            </div>
+            
+          </div>
+
+        </div>
+      
+    </div>
+      
+</body>
+
+<!-- <script>
+  function setDynamicTimezone() {
+     var date = new Date(); // Get the current date and time
+     var timezoneOffset = date.getTimezoneOffset() / 60; // Calculate the timezone offset in hours
+     var timezone = (timezoneOffset > 0 ? '-' : '+') + Math.abs(timezoneOffset); // Format the timezone offset
+
+     // Set the timezone value to a cookie or local storage for server-side processing
+     document.cookie = 'timezone=' + timezone;
+
+     // Display the timezone offset to the user
+     document.getElementById('timezone').textContent = timezone;
+ }
+</script> -->
+ 
+
+  
+
+<script src="main.js"></script>
+<script src="https://kit.fontawesome.com/c7e3830faf.js" crossorigin="anonymous"></script>
+
+
+</html>
