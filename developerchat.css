@@ -516,6 +516,30 @@ nav {
   padding-bottom: 5px;
 }
 
+/* Send Message Button Area  */
+
+.message-pane-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.message-pane-container .send-button i{
+  display: flex;
+  justify-content: flex-end;
+  color: #ed30ae;
+}
+
+#send-button {
+  background: none;
+  outline: none;
+}
+
+#message-display {
+  color: #ffffff;
+}
+
+/* Send Message Button Area End */
+
 .p-message-input-container i{
   color: #4e4e4f;
   display: flex;
@@ -546,6 +570,7 @@ nav {
 .same-case i {
    color: #c3c0c0;;
 }
+
 
 .same-case #face-emoji:hover {
   color: #f7d514;
